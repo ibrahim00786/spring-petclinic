@@ -3,8 +3,8 @@ pipeline {
   agent any
 
   tools {
-    maven 'Maven3'   // use the exact tool name you set in Manage Jenkins -> Global Tool Configuration
-    jdk 'jdk-17'     // same here; adjust as configured
+    maven 'MAVEN'   // use the exact tool name you set in Manage Jenkins -> Global Tool Configuration
+    jdk 'jdk-21'     // same here; adjust as configured
   }
 
   parameters {
