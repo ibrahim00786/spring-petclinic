@@ -4,7 +4,7 @@ pipeline {
 
   tools {
     maven 'MAVEN'   // use the exact tool name you set in Manage Jenkins -> Global Tool Configuration
-    jdk 'jdk-21'     // same here; adjust as configured
+    jdk 'JDK'     // same here; adjust as configured
   }
 
   parameters {
